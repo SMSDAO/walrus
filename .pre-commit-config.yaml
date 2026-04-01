@@ -10,12 +10,12 @@ repos:
   - id: mixed-line-ending
   - id: trailing-whitespace
 - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
-  rev: 3.6.0
+  rev: 3.6.1
   hooks:
   - id: editorconfig-checker
     alias: ec
 - repo: https://github.com/DavidAnson/markdownlint-cli2
-  rev: v0.21.0
+  rev: v0.22.0
   hooks:
   - id: markdownlint-cli2
     args: ["--fix"]
